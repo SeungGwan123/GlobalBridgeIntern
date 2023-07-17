@@ -19,7 +19,7 @@ ex) @Service<br>
 @AllArgsConstructor , @Builder , @NoArgsConstructor : 각각 매개변수 전부다초기화, 원하는 만큼 , 매개변수 없이 초기화 가능<br>
 ex) @Builder (Lombok에서 제공하는 기능, 빌더패턴 자동으로 생성해줍니다.)<br>
     Person person = Person.builder()<br>
-                          .name("John")<br>
+                          <tab>.name("John")<br>
                           .age(30)<br>
                           .build();<br>
 장점 : 순서 상관없이 원하는 만큼 초기화 가능 편리하다.<br>
