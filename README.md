@@ -1,10 +1,13 @@
 # SpringBoot
+<pre>
 '''
 스프링의 핵심 가치 - 애플리케이션 개발에 필요한 기반을 제공해서 개발자가 비즈니스 로직 구현에만 집중 할 수 있게끔 하는 것<br>
 제어 역전  - IoC를 적용한 환경에서는 사용할 객체를 직접 생성하지 않고 객체의 생명주기 관리를 외부에 위임합니다.<br>
           - 객체의 관리를 컨테이너에 맡기는 것<br>
           - 의존성 주입(DI : Dependency Injection), 관점 지향 프로그래밍(AOP : Aspect-Oriented Programming)이 가능해집니다.<br>
 '''
+</pre>
+
 # 의존성 주입(DI : Dependency Injection)
 '''
 생성자, 필드 객체 선언, setter메서드<br>
