@@ -30,4 +30,4 @@ Spring에서는 런타임 시점에서 AOP를 적용합니다
 
 @Data - Lombok에서 제공하는 어노테이션으로, 자바 클래스에 대한 메서드들을 자동으로 생성해주는 역할을 합니다.
       - toString(), equals(), hashCode(), Getter, Setter 메서드가 자동생성됩니다.
-      - ![image](https://github.com/SeungGwan123/SpringBoot/assets/123438749/85632347-ec2b-41ad-a1b1-7bd9a9c76169)
+ ![image](https://github.com/SeungGwan123/SpringBoot/assets/123438749/85632347-ec2b-41ad-a1b1-7bd9a9c76169)
