@@ -19,7 +19,7 @@ ex) @Service<br>
     @RequiredArgsConstructor<br>
     public class BannerServiceImpl implements BannerService {<br>
 
-      private final BannerRepository bannerRepository <br>
+          private final BannerRepository bannerRepository <br>
 @AllArgsConstructor , @Builder , @NoArgsConstructor : 각각 매개변수 전부다초기화, 원하는 만큼 , 매개변수 없이 초기화 가능<br>
 ex) @Builder (Lombok에서 제공하는 기능, 빌더패턴 자동으로 생성해줍니다.)<br>
     Person person = Person.builder()<br>
@@ -29,10 +29,12 @@ ex) @Builder (Lombok에서 제공하는 기능, 빌더패턴 자동으로 생성
 장점 : 순서 상관없이 원하는 만큼 초기화 가능 편리하다.<br>
 </pre>
 #관점 지향 프로그래밍(AOP : Aspect-Oriented Programming)
+<pre>
 관점을 기준으로 묶어 개발하는 방식을 의미합니다. 관점(aspect)이란 얻너 기능을 구현할 때 그 기능을 '핵심 기능'과'부가 기능'으로 구분해 각각을 하나의 관점으로 보는 것을 의미<br>
 Spring에서는 런타임 시점에서 AOP를 적용합니다<br>
 
 @Data - Lombok에서 제공하는 어노테이션으로, 자바 클래스에 대한 메서드들을 자동으로 생성해주는 역할을 합니다.<br>
       - toString(), equals(), hashCode(), Getter, Setter 메서드가 자동생성됩니다.<br>
  <br>
+</pre>
 ![image](https://github.com/SeungGwan123/SpringBoot/assets/123438749/85632347-ec2b-41ad-a1b1-7bd9a9c76169)
